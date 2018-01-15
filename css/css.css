@@ -1,0 +1,31 @@
+@media all and (min-width: 480px) and (max-width: 2280px) { 
+	div.jumbotron a{
+		text-decoration: none;
+		color: black;
+	}
+	div.jumbotron2{
+		display: none;
+	}
+}
+@media all and (max-width: 480px) {
+	div.jumbotron{
+		display: none;
+	}
+	div.jumbotron2 a{
+		text-decoration: none;
+		color: black;
+		padding-bottom: 2px;
+	}
+	div.jumbotron2{
+		padding-bottom: 2px;
+	}
+	div.row.a{
+		margin-top: 13px;
+	}
+}
+p.right{
+	float: right;
+}
+div.a>a{
+	text-decoration: none;
+}

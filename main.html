@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>API</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+
+
+
+    <!-- <link rel="icon" href="img/cal.png"> -->
+    <script src="js/jquery.min.js"></script>
+   	<script src="js/bootstrap.min.js"></script>
+   	<script src="js/bootstrap.bundle.min.js"></script>
+   	<script src="js/handlebars.js"></script>
+   	<script src="js/todo.js"></script>
+
+</head>
+<body>
+	<div class="jumbotron jumbotron-fluid bg-info">
+		<a href="http://localhost/dwc/API/main.html"><div class="container">
+			<h1 class="display-3">Search on Ebay <span class="badge badge-secondary">ES</span></h1>
+			<p class="lead">Search whatever you want.</p>
+		</div></a>
+	</div>
+	<div class="jumbotron2 bg-info">
+		<a href="http://localhost/dwc/API/main.html">
+			<p class="display-3">Search on Ebay</p>
+		</a>
+	</div>
+	<div class="container">
+		<div class="row a">
+			<div class="col-4">
+				<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+					<input type="text" class="form-control" id="search" placeholder="BUSCAR" value="">
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+					<button type="submit" class="btn btn-info mb-2" id="btn">Buscar</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="list-group" id="result">
+		</div>
+	</div>
+	<div id="result2"></div>
+	<div id="error"></div>
+	<script src="js/main.js"></script>
+	
+
+</body>
+</html>
